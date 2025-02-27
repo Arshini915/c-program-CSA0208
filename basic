@@ -1,0 +1,49 @@
+ #include<stdio.h>
+  int main()
+  {
+      float rice_price,sugar_price,oil_price,rice_quantity,sugar_quantity,oil_quantity,rice_amount,sugar_amount,oil_amount,total_amount,final_amount;
+      float tax=0.05,tax_amount;
+      printf("Enter rice_quantity=");
+      scanf("%f",&rice_quantity);
+      printf("Enter rice_price=");
+      scanf("%f",&rice_price);
+      rice_amount=rice_quantity*rice_price;
+      printf("rice_amount =%.2f\n",rice_amount);
+      
+      printf("Enter sugar_quantity=");
+      scanf("%f",&sugar_quantity);
+      printf("Enter sugar_price=");
+      scanf("%f",&sugar_price);
+      sugar_amount=sugar_quantity*sugar_price;
+      printf("sugar_amount =%.2f\n",sugar_amount);
+      
+      printf("Enter oil_quantity=");
+      scanf("%f",&oil_quantity);
+      printf("Enter oil_price=");
+      scanf("%f",&oil_price);
+      oil_amount=oil_quantity*oil_price;
+      printf("oil_amount =%.2f\n",oil_amount);
+      
+      total_amount=rice_amount+sugar_amount+oil_amount;
+      tax_amount=total_amount*tax;
+      
+      final_amount=total_amount+tax_amount;
+      
+      printf("final_amount=%.2f",final_amount);
+      return 0;
+}
+
+
+output
+Enter rice_quantity=30
+Enter rice_price=45
+rice_amount =1350.00
+Enter sugar_quantity=32
+Enter sugar_price=46
+sugar_amount =1472.00
+Enter oil_quantity=36
+Enter oil_price=68
+oil_amount =2448.00
+final_amount=5533.50
+
+=== Code Execution Successful ===
