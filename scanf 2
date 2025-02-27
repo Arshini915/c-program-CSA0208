@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf(" Enter the a Value =");
+    scanf("%d",&a);
+    printf(" variable a value is =%d",a);
+    return 0;
+}
+
+
+output
+Enter the a Value =3
+ variable a value is =3
