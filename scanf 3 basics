@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf(" Enter the a Value =");
+    scanf("%d",&a);
+    printf ( " Enter the b Value =");
+    scanf("%d",&b);
+    printf(" variable A value is =%d \n variable B value is =%d",a,b);
+    return 0;
+}
+
+
+output
+Enter the a Value =4
+ Enter the b Value =6
+ variable A value is =4 
+ variable B value is =6
+
+=== Code Execution Successful ===
